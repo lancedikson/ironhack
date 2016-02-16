@@ -59,8 +59,7 @@ var QuchIron = {
 		var url,
 			shopId = settings.shopId || 0;
 
-		var apihost = localSettings.local ? "//local-api.videoly.co" : "//api.videoly.co";
-		apihost = localSettings.testing ? "//test-api.videoly.co" : apihost;
+		var apihost = localSettings.local ? "//local-api.videoly.co" : "//ironhack-api.videoly.co";
 
 		if (shopId) {
 			url = apihost + "/1/ironhack/0/" + shopId + "/widget1.js";
